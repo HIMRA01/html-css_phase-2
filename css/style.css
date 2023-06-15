@@ -169,7 +169,7 @@
         text-align: right;
         padding: 5px 10px;
     }
-    ul{
+    #mange{
          display: flex;
          justify-content: space-around;
     }
@@ -556,41 +556,91 @@ text-decoration: none;
 
 
 
+/* *************************** DEBUT LIST********************** */
 
 
+.rahim i:hover{
+height: 60px;
+color: #069;
 
+}
+.rahim li {
+margin-left: 15px;
+    list-style-type: none;
 
+}
+.rahim{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ul{
-display:flex;
+    display: flex;
 }
 
- 
+
+
+/* ************* Debut tableau  */
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+/* width: auto; */
+}
+table{
+width: 100%;
+
+
+}
+td{
+
+font-size: 100%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px; /*padding = marge intérieure*/
+
+}
+
+tr{
+
+
+    margin: 20px;
+}
+
+
+.bas{
+
+    background-color: #d1e3fb;
+}
+.hautable{
+
+
+    background-color: #d1e3fb;
+}
+.tableau{
+width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+#logo {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 350%;
+  color: #2d5c7f;
+}
+
+/* 
 
 ul.lien1 li {
     margin: 8px;
@@ -603,4 +653,6 @@ ul.lien1 li {
     box-shadow: 0px 0px 10px 3px black;
     font-family: oswald;
 }
-} */
+} */ */
+
+ 
